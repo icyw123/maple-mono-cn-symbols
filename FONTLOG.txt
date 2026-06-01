@@ -1,0 +1,75 @@
+FONTLOG for Maple Mono NF CN Symbols
+====================================
+
+This file provides detailed information on the Maple Mono NF CN Symbols
+font software. This information should be distributed along with the
+fonts and any derivative works.
+
+
+Basics
+------
+
+Maple Mono NF CN Symbols is a derivative monospaced font for terminals.
+It takes Maple Mono NF CN (rounded Latin + CJK + Nerd Font icons) as its
+base and grafts in ~400 half-width symbol glyphs ported from Sarasa Term
+SC Nerd — circled numbers (①②③), geometric shapes (●■▲), miscellaneous
+symbols and stars (★✦), Dingbats (✓✗➜), Roman numerals (ⅠⅡⅢ), and the
+℃/℉ signs — that the base Maple lacks.
+
+The motivation is terminal alignment: in Warp / Ghostty these symbols are
+treated as 1 cell wide (per wcwidth). Maple Mono lacks the glyphs, so the
+terminal falls back to another font whose full-width (2-cell) glyph
+overflows the 1-cell slot and overlaps the next character. The ported
+Sarasa glyphs are genuinely half-width, scaled 1.2x so Sarasa's 500-unit
+half-width body lands exactly on Maple's 600-unit (1-cell) grid.
+
+The base name "Maple" is not a Reserved Font Name in the upstream
+projects, so this derivative legally retains it. The whole work is
+released under the SIL Open Font License, Version 1.1 (see LICENSE.txt).
+
+
+ChangeLog
+---------
+
+1.000  (2026)  icyw123:  Initial release.
+  - Base: Maple Mono NF CN v7.9
+    (https://github.com/subframe7536/maple-font)
+  - Symbol source: Sarasa Term SC Nerd v2.3.1
+    (https://github.com/laishulu/Sarasa-Term-SC-Nerd)
+  - Built in 4 weights: Regular, Bold, Italic, Bold Italic.
+  - Grafted half-width symbol glyphs for the Unicode blocks listed in
+    README.md, scaled 1.2x onto Maple's 600-unit cell, with advance
+    widths snapped to multiples of 600 (① = 600 = 1 cell).
+
+
+Acknowledgements
+----------------
+
+(in alphabetical order by contribution)
+
+N: Adobe
+E: -
+W: https://github.com/adobe-fonts/source-han-sans
+D: Source Han Sans, the CJK design ultimately underlying Sarasa Gothic.
+
+N: Belleve Invis
+E: -
+W: https://github.com/be5invis/Sarasa-Gothic
+D: Author of Iosevka and Sarasa Gothic / Sarasa Term, the source of the
+   half-width symbol glyphs ported here.
+
+N: laishulu
+E: -
+W: https://github.com/laishulu/Sarasa-Term-SC-Nerd
+D: Maintainer of the Nerd-Font-patched Sarasa Term SC build used as the
+   symbol source.
+
+N: subframe7536
+E: -
+W: https://github.com/subframe7536/maple-font
+D: Author of Maple Mono and the NF CN build used as the base font.
+
+N: icyw123
+E: wrptc.wang@gmail.com
+W: https://github.com/icyw123/maple-mono-cn-symbols
+D: Assembled this "Maple Mono NF CN Symbols" derivative.
