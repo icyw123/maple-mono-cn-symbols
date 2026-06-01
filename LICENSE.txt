@@ -1,8 +1,7 @@
-Copyright 2024 The Maple Mono Project Authors (https://github.com/subframe7536/maple-font), with portions from:
-  - Sarasa Gothic / Sarasa Term SC Nerd (Copyright Belleve Invis; https://github.com/be5invis/Sarasa-Gothic)
-  - Iosevka (Copyright Belleve Invis)
-  - Source Han Sans (Copyright 2014-2021 Adobe, https://github.com/adobe-fonts/source-han-sans)
-"Maple Mono NF CN Symbols" is a derivative assembled by icyw123.
+Copyright 2024 The Maple Mono Project Authors (https://github.com/subframe7536/maple-font)
+Copyright Belleve Invis (Sarasa Gothic, Sarasa Term SC Nerd, and Iosevka; https://github.com/be5invis/Sarasa-Gothic)
+Copyright 2014-2021 Adobe (Source Han Sans; https://github.com/adobe-fonts/source-han-sans)
+Copyright 2026 icyw123 ("Maple Mono NF CN Symbols", a derivative; https://github.com/icyw123/maple-mono-cn-symbols)
 
 This Font Software is licensed under the SIL Open Font License, Version 1.1.
 This license is copied below, and is also available with a FAQ at:
